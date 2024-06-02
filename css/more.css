@@ -1,0 +1,39 @@
+.fa-circle-exclamation {
+  color: tomato;
+}
+.more-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more-icons_list {
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.more-icons_list span {
+  font-size: 18px;
+}
+.more-suggestion {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 30px;
+}
+.more-suggestion_title {
+  margin-bottom: 20px;
+}
+.more-suggestion_lists {
+  display: flex;
+  justify-content: space-between;
+}
+.more-suggestion_list {
+  width: 20%;
+}
+.more-suggestion_list i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: yellow;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoa talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>11:21</span>
+      </div>
+      <div class="status-bar_column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-2x"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header_title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header_text">
+        If you have a Kakao Accound, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+        class="login-form_email"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        required
+        class="login-form_password"
+      />
+      <input type="submit" value="Log in" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/9b427a5c1b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
